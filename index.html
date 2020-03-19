@@ -1,82 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sylvia's Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>About Me</title>
 </head>
 
+<!--header-->
+<header>Sylvia Ramirez-Soto</header>
+
 <body>
-  <!--created a header-->
-  <div class="large" style="margin-bottom: 0px">
-    <h1>Sylvia Ramirez-Soto</h1>
-  <!--styled some of the elements-->
-  <style>
-    li {
-      float: left;
-    }
-    
-    li a {
-      display: block;
-      color:blue;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    li a:hover:not(.active) {
-      background-color: teal;
-    }
-    </style>
-  <!--navigation bar-->
-    <nav class="navbar navbar-expand-lg navbar-bold bg-light">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-   <!--about me header--> 
+
+  <!--navbar-->
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html">About Me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="portfolio.html">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact Me</a>
+    </li>
+  </ul>
+
+  <!--h1 tag-->
+  <h1>About Me</h1>
+
+  <!--image-->
+  <img src="Me.jpg" alt="selfie" class="img-thumbnail">
+
+  <!--container with paragraphs-->
+  <section>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <h2>About Me</h2>
+        <div class="col-sm-12">
+          <p>
+            Hi! You have arrived to the portfolio of Sylvia Ramirez-Soto. My home and my base is in San Antonio, Texas.
+            I graduate from the Univevesity of San Antonio at Texas with a BA in History in 1992. A majority of my work
+            history
+            has been spent in customer service.
+            Primarily, in the cosmetic industry. I've been apart of some great companies that I have helped market to be
+            successful, such as Maison Francis Kurkdjian and Beauty Bio.
+          </p>
+          <p>
+            I do enjoy working in the cosmeitc industry. I mean, what person doesn't love being able to get paid to play
+            with
+            makeup.
+            I feel the experience I have harnessed in the cosmetic industry will help in a new carreer I'm aspiring to,
+            and that
+            is full stack web developer.
+            Currently, I am enrolled in a coding bootcamp at my alma mater, UTSA. This page will highlight what I have
+            learned
+            and some of the projects I have done.
+            It is a change from my current job. But as Gloria Steinem states,
+            "Without leaps of imagination or dreaming, we lose the excitement of possibilities. Dreaming, after all is a
+            form of
+            planning."
+          </p>
         </div>
-  <!--card for about me section-->
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-2">
-              <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="lake" class="img-thumbnail">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt cursus quam eget vehicula. Duis ultricies odio non nisi accumsan tincidunt. Integer commodo nisl ligula, id venenatis purus condimentum sit amet. Curabitur sit amet interdum ipsum. Donec rhoncus at leo id semper. Sed non fringilla nisl. Phasellus a nisi vitae neque sagittis elementum id at magna. Duis imperdiet finibus vulputate. Nam quam eros, pulvinar a ornare in, eleifend non massa. Integer mattis imperdiet sagittis. In sapien urna, ultricies et ipsum vitae, dictum luctus ipsum. Curabitur suscipit egestas nisi, eget vehicula risus ultrices quis.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-  <!--media query-->
-    <div @media screen and (min-width: 480px) {
-       #leftsidebar {width: 200px; float: left;}
-       #main {margin-left: 216px;}
-      }>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </html>

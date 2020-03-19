@@ -1,0 +1,41 @@
+header {
+    font-family: Georgia;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(5, 26, 90);
+}
+.body {
+  background-color: lightsteelblue;
+}
+.nav {
+    font-family: Georgia;
+    font-weight: bolder;
+    font-size: large;
+    background-color: lightgrey;
+}
+.container {
+  width: 400px;
+  border: .5px solid lightgrey;
+  padding: 25px;
+  margin: 40px;
+}
+h1 {
+  font-family: Georgia;
+  
+}
+.img-thumbnail {
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  top: 200px;
+}
+.row-justify-content-center {
+  border: dashed;
+}
+p {
+  font-family: Georgia;
+}
+address {
+  display: block;
+  font-family: Georgia;
+}
