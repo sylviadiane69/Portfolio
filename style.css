@@ -1,3 +1,5 @@
+
+
 header {
     font-family: Georgia;
     font-size: 40px;
@@ -13,22 +15,12 @@ header {
     font-size: large;
     background-color: lightgrey;
 }
-.container {
-  width: 400px;
-  border: .5px solid lightgrey;
-  padding: 25px;
-  margin: 40px;
-}
+
 h1 {
   font-family: Georgia;
   
 }
-.img-thumbnail {
-  width: 150px;
-  height: 150px;
-  position: fixed;
-  top: 200px;
-}
+
 .row-justify-content-center {
   border: dashed;
 }
@@ -39,3 +31,20 @@ address {
   display: block;
   font-family: Georgia;
 }
+  .container {
+    width: 400px;
+    border: .5px solid lightgrey;
+    padding: 25px;
+    margin: 40px;
+  }
+  
+  @media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+    img {
+      width: 150px;
+      height: 150px;
+      position: relative;
+      bottom: 10px;
+    }
+  }
